@@ -1,0 +1,156 @@
+/*
+* @Author: Administrator
+* @Date:   2017-08-07 19:29:35
+* @Last Modified by:   l
+* @Last Modified time: 2017-08-28 15:29:56
+*/
+*{margin: 0px;padding: 0px;}
+html,body{
+	height: 100%;
+	background: url(../images/bg3.png);
+}
+.index{
+	width: 100%;
+	height: 100%;
+	background:#CDFAE6;
+	padding-top: 20%;
+
+}
+.index2{
+	background:#E7F6E0;
+}
+.index3{
+	background:#F8DECF;
+}
+.container{
+	width: 90%;
+
+}
+.row{
+	margin-top: 12px;
+	margin-bottom: 10px;
+	
+}
+.img-circle{
+	float: left;
+}
+.ul1,.ul2{
+	list-style: none;
+	display: hidden;
+	margin-left: 5%;
+	float: left;
+	padding-left: 0px;
+}
+.li1{
+	border-bottom: 1px solid #777;
+}
+.ul2{
+	display: none;
+}
+.div2{
+	float: right;
+	margin-right: 3%;
+}
+
+.div2 span a{
+	display: inline-block;
+	-webkit-transition:all 2s;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 20px;
+	color: #05CFF9;
+	margin-top: 10px;
+	margin-left: 30px;
+
+}
+.div2 span a:hover{
+	color: #05CFF9
+}
+
+.center{
+	width: 60%;
+}
+
+.centerfont{
+	color: #05CFF9;
+}
+.center2{
+	overflow: hidden;
+}
+.jineng{
+	width: 60%;
+	margin: 0 auto;
+	overflow: hidden;
+	
+}
+@media screen and (min-width: 300px){
+	.div3{
+	width: 20%;
+	display: inline-block;
+	height: 300px;
+	}		
+
+}
+
+.js{	
+	float: left;	
+	border: 2px solid #E6E2E2;
+	border-radius:15px;
+	background: #C1BEBE;
+	
+}
+.zj{	
+	float: left;
+	margin-left: 6%;
+	border: 1px solid red;
+	border: 2px solid #E6E2E2;
+	border-radius:15px;
+	background: #C1BEBE;
+
+}
+.kj{
+	float: right;
+	border: 2px solid #E6E2E2;
+	border-radius:15px;
+	background: #C1BEBE;
+}
+.h3{
+	font-size: 50px;
+	margin-top: 100px;
+	text-align: center;
+	color: #FCF9F9;
+
+}
+
+.p2{
+	font-size: 18px;
+	text-indent: 1em;
+	margin-left:5px;
+	display: none;
+	color: #891720;
+	margin-top: 80px;
+	font-weight: bold;
+}
+
+.xm{
+	float: left;
+	border-radius:15px;
+	width: 20%;
+	border: 2px solid #E6E2E2;
+	height:30%; 
+	margin-left: 10%;
+	margin-bottom: 30px;
+	text-align: center;
+	background: #C1BEBE;
+}
+.xm h4 {
+	margin-top: 15%;
+
+}
+.xm h4 a{color: #474747;
+	font-weight: bold;
+
+}
+.xm p{
+	color: #474747;
+}
